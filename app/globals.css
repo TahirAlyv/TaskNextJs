@@ -40,3 +40,35 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.container ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #222;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  height: 100vh; 
+  background-color: aqua;
+  height: 50px;
+}
+
+#newsLi a{
+  display: block;
+}
+
+ 
